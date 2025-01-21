@@ -8,7 +8,7 @@ import * as serverTiming from 'nextjs/utils/serverTiming';
 
 import config from 'configs/app';
 import theme from 'theme/theme';
-import * as svgSprite from 'ui/shared/IconSvg';
+// import * as svgSprite from 'ui/shared/IconSvg';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -54,7 +54,6 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon-180x180.png"/>
           <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png"/>
-          <link rel="preload" as="image" href={ svgSprite.href }/>
         </Head>
         <body>
           <ColorModeScript initialColorMode={ theme.config.initialColorMode }/>
