@@ -39,7 +39,7 @@ const LOCAL_ENVS = {
 };
 
 const IGNORED_ENVS = [
-  ""
+  '',
 ];
 
 function parseScriptArgs() {

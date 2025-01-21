@@ -22,6 +22,3 @@ const config: Feature<{ clientKey: string }> = (() => {
 })();
 
 export default config;
-
-
-

@@ -23,7 +23,6 @@ const config: Feature<{ chains: Array<BridgedTokenChain>; bridges: Array<TokenBr
     isEnabled: false,
   });
 
-  
 })();
 
 export default config;

@@ -236,7 +236,7 @@ export default function useNavItems(): ReturnType {
         nextRoute: { pathname: '/contract-verification' as const },
         isActive: pathname.startsWith('/contract-verification'),
       },
-    
+
       config.features.publicTagsSubmission.isEnabled && {
         text: 'Submit public tag',
         nextRoute: { pathname: '/public-tags/submit' as const },
@@ -264,7 +264,7 @@ export default function useNavItems(): ReturnType {
         icon: 'apps',
         isActive: pathname.startsWith('/app'),
       } : null,
-    
+
       apiNavItems.length > 0 && {
         text: 'API',
         icon: 'restAPI',

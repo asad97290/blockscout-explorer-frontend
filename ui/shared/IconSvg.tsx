@@ -19,7 +19,7 @@ const IconSvg = ({ name, isLoading, ...props }: Props, ref: React.ForwardedRef<H
   return (
     <Skeleton isLoaded={ !isLoading } display="inline-block" { ...props } ref={ ref }>
       <chakra.svg w="100%" h="100%">
-        {/* <use href={ `${ href }#${ name }` }/> */}
+        { /* <use href={ `${ href }#${ name }` }/> */ }
       </chakra.svg>
     </Skeleton>
   );

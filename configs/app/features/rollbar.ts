@@ -29,7 +29,7 @@ const config: Feature<{
       clientToken,
       environment,
       instance,
-      codeVersion:"1",
+      codeVersion: '1',
     });
   }
 

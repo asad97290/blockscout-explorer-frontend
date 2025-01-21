@@ -357,7 +357,7 @@ export default tseslint.config(
         maxBOF: 0,
       } ],
       '@stylistic/no-multi-spaces': 'error',
-      '@stylistic/no-trailing-spaces': 'error',
+      '@stylistic/no-trailing-spaces': 'off',
       '@stylistic/object-curly-spacing': [ 'error', 'always' ],
       '@stylistic/operator-linebreak': [ 'error', 'after' ],
       '@stylistic/quote-props': [ 'error', 'as-needed', {

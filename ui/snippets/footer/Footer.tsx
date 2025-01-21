@@ -77,11 +77,11 @@ const Footer = () => {
 
   const frontendLink = (() => {
     // if (config.UI.footer.frontendVersion) {
-      // return <Link href={ FRONT_VERSION_URL } target="_blank">{ config.UI.footer.frontendVersion }</Link>;
+    // return <Link href={ FRONT_VERSION_URL } target="_blank">{ config.UI.footer.frontendVersion }</Link>;
     // }
 
     // if (config.UI.footer.frontendCommit) {
-      // return <Link href={ FRONT_COMMIT_URL } target="_blank">{ config.UI.footer.frontendCommit }</Link>;
+    // return <Link href={ FRONT_COMMIT_URL } target="_blank">{ config.UI.footer.frontendCommit }</Link>;
     // }
 
     return null;
